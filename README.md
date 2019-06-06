@@ -110,7 +110,7 @@
 
 ---
 
-**运行流程：** 首先运行process.py将数据导入mongodb，之后进入单个文件夹运行xx_runner.py即可，其中，All文件夹下为集成模型。
+**运行流程：** 首先解压两个rar文件，再运行process.py将数据导入mongodb，之后进入单个文件夹运行xx_runner.py即可，其中，All文件夹下为集成模型。
 
 
 
