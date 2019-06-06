@@ -1,0 +1,26 @@
+/home/lab/anaconda2/lib/python2.7/site-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+(544020, 105)
+(494019, 20)
+[9.98882786e-01 1.11657795e-03 5.13665959e-07 1.10015214e-07
+ 9.74025001e-09 2.20384140e-09 8.73057484e-10 4.09942504e-13
+ 1.31782817e-13 7.18414652e-14 3.38736197e-14 2.78297285e-14
+ 1.89671256e-14 1.74016020e-14 1.52145443e-14 1.26263377e-14
+ 1.00887751e-14 8.39826792e-15 5.16791557e-15 4.70455183e-15]
+Counter({2: 41720, 0: 6368, 4: 1100, 1: 809, 3: 3})
+[[ 6321    29    11     0     7]
+ [    5   800     4     0     0]
+ [  185     1 41534     0     0]
+ [    3     0     0     0     0]
+ [ 1093     2     1     0     4]]
+             precision    recall  f1-score   support
+
+          0       0.83      0.99      0.90      6368
+          1       0.96      0.99      0.98       809
+          2       1.00      1.00      1.00     41720
+          3       0.00      0.00      0.00         3
+          4       0.36      0.00      0.01      1100
+
+avg / total       0.96      0.97      0.96     50000
+
+all dowm
